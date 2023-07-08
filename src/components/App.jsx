@@ -58,10 +58,10 @@ export class App extends Component {
     return result;
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    console.log(prevProps);
-    console.log(prevState);
-  }
+  // componentDidUpdate(prevProps, prevState) {
+  //   console.log(prevProps);
+  //   console.log(prevState);
+  // }
 
   isDublicate(name, number) {
     const normalizedName = name.toLowerCase();
