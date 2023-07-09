@@ -9,5 +9,15 @@
 }
 
 .filterInput {
-  max-width: 200px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+
+  border: 0;
+  color: #080000;
+  width: 12em;
+  text-align: center;
+  padding: 0.8em 0.9em;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
 }

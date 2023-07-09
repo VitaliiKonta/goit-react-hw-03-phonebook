@@ -1,5 +1,7 @@
 .form {
-  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #f00f0f;
   display: flex;
   flex-direction: column;
   padding: 10px 15px 30px;
@@ -7,9 +9,35 @@
 }
 
 .label {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  padding-right: 30px;
 }
 
 .input {
   margin-bottom: 20px;
+  margin-left: 50px;
+
+  border: 0;
+  color: #020000;
+  width: 12em;
+  text-align: center;
+  padding: 0.8em 0.9em;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 0;
+  color: #fff;
+  width: 12em;
+  text-align: center;
+  padding: 0.8em 0.9em;
+  border-radius: 100px;
+
+  background-color: #a87f5e;
 }

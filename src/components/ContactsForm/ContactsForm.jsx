@@ -47,6 +47,7 @@ class ContactsForm extends Component {
         <label htmlFor="" className={css.label}>
           Number
           <input
+            className={css.input}
             type="tel"
             name="number"
             value={number}
@@ -56,7 +57,9 @@ class ContactsForm extends Component {
             required
           />
         </label>
-        <button type="submit">Add contact</button>
+        <button className={css.button} type="submit">
+          Add contact
+        </button>
       </form>
     );
   }

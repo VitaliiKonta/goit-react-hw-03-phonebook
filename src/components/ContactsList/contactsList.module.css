@@ -1,11 +1,22 @@
-.deleteButton {
-  margin-left: 20px;
-}
-
 .contactItem {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .contactItem:last-of-type {
   margin-bottom: 0;
+}
+
+.deleteButton {
+  margin-left: 30px;
+  margin-right: auto;
+
+  border: 0;
+  color: #fff;
+  width: 5em;
+  text-align: center;
+  padding: 0.3em 0.3em;
+  border-radius: 100px;
+
+  background-color: #a87f5e;
+  cursor: pointer;
 }
